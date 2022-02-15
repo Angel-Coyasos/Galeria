@@ -4,18 +4,24 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-rows: repeat(3, 200px);;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 10px;
+    grid-template-rows: repeat(auto-fill, minmax(1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+ 
+img {
+    width: 100%;
+    height: 100px;
 }
 
 .grid-items {
-    border: 2px solid #000;
+    border: 1px solid #000;
     text-align: center;
+    object-fit: cover;
 }
 
 .grid-items:nth-child(1) {
-    background: #402;
+    background: #455;
+    object-fit: cover;
 }
 .grid-items:nth-child(2) {
     background: #350;
@@ -49,6 +55,30 @@ body {
 }
 .grid-items:nth-child(12) {
     background: #699;
+}
+.grid-items:nth-child(13) {
+    background: #540;
+}
+.grid-items:nth-child(14) {
+    background: #321;
+}
+.grid-items:nth-child(15) {
+    background: #369;
+}
+.grid-items:nth-child(16) {
+    background: #654;
+}
+.grid-items:nth-child(17) {
+    background: #987;
+}
+.grid-items:nth-child(18) {
+    background: #906;
+}
+.grid-items:nth-child(19) {
+    background: #213;
+}
+.grid-items:nth-child(20) {
+    background: #786;
 }
 
 .grid-items:hover {
