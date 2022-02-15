@@ -62,6 +62,52 @@ img {
     cursor: pointer;
 }
 
+<<<<<<< Updated upstream
+=======
+.header {
+    background: #135;
+    height: 60px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.header-title {
+    display: flex;
+    flex-direction: row;
+    color: #eee;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    margin-left: 20px;
+}
+.header-title h1:hover, p:hover {
+    color: #f00;
+    text-decoration-style: wavy;
+    text-decoration-color: #eee;
+    text-decoration-line: line-through;
+    transition: 1s;
+}
+.barra {
+    width: 30%;
+}
+
+.barra-nav__ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
 .footer {
     background: #135;
     height: 60px;
