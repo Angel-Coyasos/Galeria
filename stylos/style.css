@@ -95,7 +95,7 @@ p {
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .busqueda {
@@ -154,7 +154,6 @@ button:hover {
 a {
     color: #eee;
     text-decoration: none;
-    margin-left: 10px;
 }
 a:hover {
     color: #f00;
@@ -162,4 +161,26 @@ a:hover {
     text-decoration-color: #eee;
     text-decoration-line: line-through;
     transition: 1s;
+}
+
+.sub-menu {
+    position: absolute;
+    background-color: #137;
+    list-style: none;
+    visibility: hidden;
+    opacity: 0;
+}
+.sub-menu li a {
+    color: #eee;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+}
+
+.barra li:hover .sub-menu{
+    visibility: visible;
+    opacity: 1;   
+    transition: 1s;
+    border-radius: 10px;
 }
