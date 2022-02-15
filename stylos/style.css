@@ -62,6 +62,33 @@ img {
     cursor: pointer;
 }
 
+.header {
+    background: #135;
+    height: 60px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.header-title {
+    display: flex;
+    flex-direction: row;
+    color: #eee;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    margin-left: 20px;
+}
+.header-title h1:hover, p:hover {
+    color: #f00;
+    text-decoration-style: wavy;
+    text-decoration-color: #eee;
+    text-decoration-line: line-through;
+    transition: 1s;
+}
+
+
 .footer {
     background: #135;
     height: 60px;
@@ -70,7 +97,7 @@ img {
     justify-content: center;
     margin-top: 10px;
 }
-span {
+.footer span {
     text-align: center;
     padding: 2px;
     font-size: 16px;
@@ -79,9 +106,12 @@ span {
 a {
     color: #eee;
     text-decoration: none;
+    margin-left: 10px;
 }
 a:hover {
     color: #f00;
-    text-decoration: none;
+    text-decoration-style: wavy;
+    text-decoration-color: #eee;
+    text-decoration-line: line-through;
     transition: 1s;
 }
