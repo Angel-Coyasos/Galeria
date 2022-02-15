@@ -4,7 +4,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-auto-rows: 100px;
     grid-gap: 5px;
 }
@@ -87,6 +87,57 @@ p {
     text-decoration-line: line-through;
     transition: 1s;
 }
+<<<<<<< HEAD
+=======
+.barra {
+    width: 25%;
+}
+
+.barra-nav__ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.busqueda {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    border-radius: 10px;
+    border: 1px solid #eee;
+    height: 25px;
+}
+button {
+    width: 60px;
+    height: 25px;
+    margin-left: 10px;
+    color: #eee;
+    background: #135;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+input:hover {
+    color: #135;
+    font-size: 15px;
+    border: 3px solid #000;
+    transition: 1s;
+}
+button:hover {
+    background: #eee;
+    color: #135;
+    transition: 1s;
+    font-size: 15px;
+    border: 3px solid #000;
+}
+
+
+
+
+>>>>>>> header
 
 
 .footer {
